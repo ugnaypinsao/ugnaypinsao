@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+    background: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 40px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 250px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button {
+    background-color: #32620E;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.intro-body p{
+    font-size: 20px;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./src/img/pinsao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: #32620E;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#32620E;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.map iframe{
+    width: 80rem; 
+    height: 50rem;
+    border: 0;
+}
